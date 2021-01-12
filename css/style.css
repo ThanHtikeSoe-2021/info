@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  margin-right: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #bce6eb;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento';
+}
+
+h2 {
+  font-family: 'montserrat';
+}
+
+h3 {
+  font-family: 'montserrat';
+}
+
+.top-container {
+  background-color: #bce6eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #bce6eb;
+}
+
+.bottom-container {
+  background-color:#bce6eb ;
+  padding: 30px;
+  height:100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.portfolio {
+  padding: 30px;
+  margin: 0px;
+  height: 500px;
+}
+
+.certificate {
+  padding: 30px;
+  margin: 0px;
+  height: 400px;
+}
+
+.Education {
+  padding: 30px;
+  margin: 0px;
+  height: 400px;
+}
+
+.Experience {
+  padding: 30px;
+  margin: 0px;
+  height: 400px;
+}
+
+.skills {
+  padding: 30px;
+  margin: 0px;
+  height: 400px;
+}
