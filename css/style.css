@@ -70,34 +70,34 @@ p{
 
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 200px auto 200px auto;
   text-align: left;
   line-height: 2;
 }
 
 .skill-img {
-  width: 30%;
+  width: 40%;
   float: left;
   margin-right: 50px;
 }
 
 .exp-img {
-  width: 30%;
+  width: 40%;
   height:200px;
   float: left;
   margin-right: 50px;
 }
 
 .edu-img {
-  width: 30%;
+  width: 40%;
 
   float: left;
   margin-right: 50px;
 }
 
 .cert-img {
-  width: 30%;
+  width: 40%;
     height:200px;
   float: left;
   margin-right: 50px;
@@ -105,7 +105,7 @@ p{
 
 .portfolio-img
 {
-  width: 30%;
+  width: 40%;
     height:200px;
   float: left;
   margin-right: 50px;
