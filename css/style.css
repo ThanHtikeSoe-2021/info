@@ -1,8 +1,8 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: black;
 }
 
 .top-container {
@@ -10,16 +10,24 @@ body {
   padding-top: 100px;
 }
 
+.plane {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  filter: brightness(1.2);
+}
+
 .middle-container {
+  margin: 100px 0;
   background-color: white;
 }
 
 .bottom-container {
   margin-bottom: 0;
   position: relative;
-  top: 50px;
+  top: 100px;
   background-color: #66BFBF;
-  padding: 30px;
+  padding: 50px 0 20px;
 }
 
 hr {
@@ -41,6 +49,7 @@ h2 {
   font-family: arial;
   color: #66BFBF;
   font-size: 3rem;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -56,60 +65,65 @@ h4 {
 }
 
 p {
+  line-height: 2;
   font-family: 'Merriweather';
   font-size: 1rem;
   font-weight: bold;
-  color: ##40514E;
+  color: #40514E;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .skill-row {
-  width: 70%;
+  width: 50%;
   margin: 200px auto 200px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .skill-img {
-  width: 40%;
+  width: 30%;
   float: left;
   margin-right: 50px;
 }
 
 .exp-img {
-  width: 40%;
-  
+  width: 30%;
+  height: 200px;
   float: left;
   margin-right: 50px;
 }
 
 .edu-img {
-  width: 40%;
+  width: 30%;
   float: left;
   margin-right: 50px;
 }
 
 .cert-img {
-  width: 40%;
-  
+  width: 30%;
+  height: 200px;
   float: left;
   margin-right: 50px;
 }
 
 .portfolio-img {
-  width: 40%;
-  
+  width: 30%;
+  height: 200px;
   float: left;
   margin-right: 50px;
 }
@@ -127,7 +141,8 @@ p {
 }
 
 .cute-img {
-  width: 20%;
+  width: 200px;
+  height: 200px;
   margin: 0;
 }
 
@@ -171,4 +186,17 @@ p {
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.footer-link {
+  margin: 0 10px 0 10px;
+  filter: brightness(1.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bce6eb;
 }
